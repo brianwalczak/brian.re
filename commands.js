@@ -218,6 +218,10 @@ async function handleEvent(data) {
         term.newLine();
         term.write('| Use `tip.sh` to support my work.                    |');
         term.newLine();
+        term.write('|                                                     |');
+        term.newLine();
+        term.write('| Use `brian-config` to configure your experience.    |');
+        term.newLine();
         term.write('+-----------------------------------------------------+');
         term.newLine(2);
         term.write('Type `ls` to list all available files to run with sh (or bash).');
