@@ -20,7 +20,7 @@ window.acceptableFiles = [
     {
         "name": 'Contact Me',
         "file": 'contact.sh',
-        "text": "Hey there! Thanks for your interest in contacting me.<br><br>For business inquiries, including questions about my work, you can contact me via email at brian@brianwalczak.com and I'll respond as soon as I can.<br><br>For any other inquiries, feel free to reach out to me on Discord at @briannw.<br><br><br><a style='color: inherit;' target='_blank' rel='noopener noreferrer' href='mailto:brian@brianwalczak.com'>Send Me an Email</a> | <a style='color: inherit;' target='_blank' rel='noopener noreferrer' href='https://discord.com/users/603517534720753686'>Open Discord</a>"
+        "text": "Hey there! Thanks for your interest in contacting me.<br><br>For business inquiries, including questions about my work, you can contact me via email at me@brian.re and I'll respond as soon as I can.<br><br>For any other inquiries, feel free to reach out to me on Discord at @briannw.<br><br><br><a style='color: inherit;' target='_blank' rel='noopener noreferrer' href='mailto:me@brian.re'>Send Me an Email</a> | <a style='color: inherit;' target='_blank' rel='noopener noreferrer' href='https://discord.com/users/603517534720753686'>Open Discord</a>"
     },
     {
         "name": 'Tip Me',
@@ -155,7 +155,7 @@ async function handleFile(file) {
             term.write('Hey there! Thanks for your interest in contacting me.');
             await sleep(2000);
             term.newLine();
-            term.write("For business inquiries, including questions about my work, you can contact me via email at brian@brianwalczak.com and I'll respond as soon as I can.");
+            term.write("For business inquiries, including questions about my work, you can contact me via email at me@brian.re and I'll respond as soon as I can.");
             await sleep(1000);
             term.newLine();
             term.write("For any other inquiries, feel free to reach out to me on Discord at @briannw.");
